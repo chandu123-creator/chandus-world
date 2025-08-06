@@ -1,0 +1,52 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+}
+header {
+  background-color: #6a1b9a;
+  color: white;
+  padding: 1em;
+  text-align: center;
+}
+nav {
+  background: #512da8;
+  text-align: center;
+  padding: 1em;
+}
+nav a {
+  color: white;
+  margin: 0 1em;
+  text-decoration: none;
+}
+main {
+  padding: 2em;
+}
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: #ccc;
+}
+.gallery {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.gallery img {
+  width: 300px;
+  border-radius: 10px;
+}
+form input, form textarea {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  padding: 0.5em;
+}
+form button {
+  padding: 0.5em 1em;
+  background-color: #6a1b9a;
+  color: white;
+  border: none;
+}
